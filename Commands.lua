@@ -1,8 +1,7 @@
-
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 
-local WhitelistSystems = loadstring(game:HttpGet("https://raw.githubusercontent.com/DanXvoIsMe/Imperium/refs/heads/main/Whitelist.lua"))
+local WhitelistSystems = loadstring(game:HttpGet("https://raw.githubusercontent.com/DanXvoIsMe/Imperium/refs/heads/main/Whitelist.lua"))()
 
 function GetArgs(fullmsg)
     return string.split(fullmsg, " ")
