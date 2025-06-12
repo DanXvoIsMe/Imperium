@@ -4,7 +4,8 @@ local Whitelist = {
     "DeepBloxCode",
     "YouAreErrorLol",
     "lua87366",
-    "DanXvoalt"
+    "DanXvoalt",
+    "RIGSEKTOR"
 }
 
 modulelol.IsWhitelisted = function ( name )
