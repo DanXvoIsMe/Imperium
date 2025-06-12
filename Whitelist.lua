@@ -5,7 +5,8 @@ local Whitelist = {
     "YouAreErrorLol",
     "lua87366",
     "DanXvoalt",
-    "RIGSEKTOR"
+    "RIGSEKTOR",
+    "old_man1243t"
 }
 
 modulelol.IsWhitelisted = function ( name )
